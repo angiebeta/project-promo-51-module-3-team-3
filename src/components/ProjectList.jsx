@@ -1,4 +1,4 @@
-import '../styles/components/project-list.scss'
+import "../styles/components/project-list.scss";
 import { useEffect, useState } from "react";
 
 function ProjectList() {
@@ -17,7 +17,11 @@ function ProjectList() {
 
   return (
     <section className="project-list">
-      <h2>Todos los proyectos</h2>
+      <h2 className="project-list__title">Todos los proyectos</h2>
+      <a className="back_button" href="/">
+        {" "}
+        Volver al inicio
+      </a>
       <ul>
         {projects.map((project) => (
           <li key={project.id}>
