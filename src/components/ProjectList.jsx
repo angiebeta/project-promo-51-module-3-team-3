@@ -5,7 +5,7 @@ function ProjectList() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/project/list")
+    fetch("https://gestor-de-proyectos-5l4s.onrender.com/project/list")
       .then((res) => res.json())
       .then((data) => {
         if (data.success) {

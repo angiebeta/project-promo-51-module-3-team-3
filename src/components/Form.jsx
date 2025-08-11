@@ -23,7 +23,7 @@ function Form({ pprojectData, psetProjectData }) {
     setMessage("Creando proyecto...");
     console.log("Enviando datos del proyecto:", pprojectData);
 
-    fetch("http://localhost:4000/project/add", {
+    fetch("https://gestor-de-proyectos-5l4s.onrender.com/project/add", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -59,7 +59,7 @@ function Form({ pprojectData, psetProjectData }) {
           }
 
           // Construimos la URL del detalle
-          const url = `http://localhost:4000/project/detail/${id}`;
+          const url = `https://gestor-de-proyectos-5l4s.onrender.com/project/detail/${id}`;
           setCardURL(url);
           setErrorMessage("");
         } else {
