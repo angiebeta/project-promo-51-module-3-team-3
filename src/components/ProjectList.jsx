@@ -18,7 +18,10 @@ function ProjectList() {
   return (
     <section className="project-list">
       <h2 className="project-list__title">Todos los proyectos</h2>
-      <a className="back_button" href="/">
+      <a
+        className="back_button"
+        href="https://angelicagh.github.io/project-promo-51-module-3-team-3/"
+      >
         {" "}
         Volver al inicio
       </a>
