@@ -8,7 +8,7 @@ function Header() {
         <section className="hero">
           <h2 className="title">Gestor de proyectos</h2>
           <Link
-            to="project-promo-51-module-3-team-3/"
+            to="https://angelicagh.github.io/project-promo-51-module-3-team-3/"
             className="header__landing-btn"
           >
             Volver al inicio
