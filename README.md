@@ -4,7 +4,7 @@ Una aplicación web desarrollada con React que permite **subir tus proyectos** y
 
 ## 👁️ Conoce nuestro proyecto
 
-[Visita nuestro gestor de proyectos](https://angelicagh.github.io/project-promo-51-module-3-team-3/)
+[Visita nuestro gestor de proyectos](https://angiebeta.github.io/project-promo-51-module-3-team-3/)
 
 ## 🚀 Características principales
 
@@ -39,3 +39,4 @@ Una aplicación web desarrollada con React que permite **subir tus proyectos** y
 #### 3. Ejecutar la app
 
 `npm run dev`
+
